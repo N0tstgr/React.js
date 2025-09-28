@@ -3,6 +3,8 @@ import './App.css';
 
 function App() {
   return (
+    <>
+    // <h2>this is not</h2>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,8 +19,9 @@ function App() {
         >
           Learn React NotStranger
         </a>
-      </header>
+      </header> 
     </div>
+    </>
   );
 }
 
